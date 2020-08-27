@@ -13,6 +13,54 @@
   }
 }
 
+.World{
+  display: flex;
+}
+
+.world-tile {
+  width: 15px;
+  height:15px;
+}
+
+.world-row {
+  display: flex;
+}
+
+.stone-tile{
+  background: gray
+}
+
+.gold-tile{
+  background: gold;
+}
+
+.food-tile{
+  background: red;
+}
+
+.water-tile{
+  background: aqua;
+}
+
+.land-tile{
+  background: green;
+}
+
+.wood-tile{
+  background: brown;
+}
+
+.villager-tile{
+  background: green;
+}
+
+.dude{
+  border-radius: 50px;
+  background-color: orange;
+  width: 100%;
+  height: 100%;
+}
+
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
